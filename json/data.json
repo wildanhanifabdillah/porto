@@ -65,7 +65,7 @@
       "year": "2025",
       "preview": "https://avocycle.shop/",
       "code": "https://github.com/wildanhanifabdillah/avocycle1.git",
-      "thumbnail": "",
+      "thumbnail": "/image/projects/web/avocycle/avocycle-thumbnail.png",
       "images": [],
       "tech": [
         "React",
@@ -84,14 +84,14 @@
       "year": "2025",
       "preview": "https://predict-total-goal-pl.streamlit.app/",
       "code": "https://github.com/wildanhanifabdillah/Predict-Total-Goal-PL.git",
-      "thumbnail": "",
+      "thumbnail": "/image/projects/web/predict-goal/predict-goal-thumbnail.png",
       "images": [],
       "tech": [
         "Flask",
         "HTML",
         "CSS",
         "Streamlit",
-        "Python"
+        "Pandas"
       ],
       "slug": "predict-goal"
     },
@@ -105,7 +105,7 @@
       "year": "2024",
       "preview": "",
       "code": "https://github.com/wildanhanifabdillah/sarponesiaBackend.git",
-      "thumbnail": "",
+      "thumbnail": "/image/projects/web/sarponesia/sarponesia-thumbnail.png",
       "images": [],
       "tech": [
         "Laravel",
@@ -123,7 +123,7 @@
       "year": "2025",
       "preview": "https://simklinik.madanateknologi.web.id/login",
       "code": "https://bit.ly/Design-PAD",
-      "thumbnail": "",
+      "thumbnail": "/image/projects/web/simklinik/simklinik-thumbnail.png",
       "images": [],
       "tech": [
         "Figma"
