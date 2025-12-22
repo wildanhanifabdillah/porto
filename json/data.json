@@ -1,0 +1,134 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "TokoManagement",
+      "desc": [
+        "A store management web app that centralizes inventory, supplier, customer, and order workflows so owners can track daily operations without juggling spreadsheets.",
+        "Built with Laravel and Vue for fast CRUD and responsive UI, backed by MySQL and Dockerized pipelines on GitLab CI/CD to keep deployments reliable."
+      ],
+      "year": "2025",
+      "preview": "",
+      "code": "https://github.com/wildanhanifabdillah/TokoManagement.git",
+      "thumbnail": "/image/projects/web/tokoManagement/tokoManagement-thumbnail.png",
+      "images": [
+        "/image/projects/web/tokoManagement/TokoManagement1.png",
+        "/image/projects/web/tokoManagement/tokoManagement2.png"
+      ],
+      "tech": [
+        "Laravel",
+        "Vue",
+        "MySQL",
+        "Docker",
+        "GitLab CI/CD"
+      ],
+      "slug": "tokomanagement"
+    },
+    {
+      "show": true,
+      "title": "WHAStore",
+      "desc": [
+        "WHAStore is a web e-commerce platform with a Go backend and Next.js frontend, using Zod to keep catalog, cart, and checkout flows consistently validated.",
+        "Midtrans powers payments, while PostgreSQL and Redis handle persistence and caching. Everything is Dockerized with GitLab CI/CD so releases stay fast and repeatable."
+      ],
+      "year": "2025",
+      "preview": "https://whastore.my.id/",
+      "code": [
+        "https://github.com/wildanhanifabdillah/store-frontend.git",
+        "https://github.com/wildanhanifabdillah/storeBackend.git"
+      ],
+      "thumbnail": "/image/projects/web/whastore/whastore-thumbnail.png",
+      "images": [
+        "/image/projects/web/whastore/whastore-1.png",
+        "/image/projects/web/whastore/whastore-2.png",
+        "/image/projects/web/whastore/whastore-3.png"
+      ],
+      "tech": [
+        "Go",
+        "Next.js",
+        "Zod",
+        "PostgreSQL",
+        "Redis",
+        "Docker",
+        "Midtrans",
+        "GitLab CI/CD"
+      ],
+      "slug": "whastore"
+    },
+    {
+      "show": true,
+      "title": "Avocycle",
+      "desc": [
+        "A farmer-facing web app to manage avocado production - from tracking growers and plots to logging harvests and coordinating supply with buyers.",
+        "Built with React, Tailwind CSS, and Axios for a responsive dashboard that keeps farmer data, inventory, and order status clear and actionable."
+      ],
+      "year": "2025",
+      "preview": "https://avocycle.shop/",
+      "code": "https://github.com/wildanhanifabdillah/avocycle1.git",
+      "thumbnail": "",
+      "images": [],
+      "tech": [
+        "React",
+        "Tailwind CSS",
+        "Axios"
+      ],
+      "slug": "avocycle-frontend"
+    },
+    {
+      "show": true,
+      "title": "Predict Goal",
+      "desc": [
+        "A Python-based project that trains Random Forest and KNN models on two Premier League seasons to predict total match goals.",
+        "Backend runs on Flask and is deployed to Railway, while Streamlit with HTML/CSS fronts the prediction UI so users can test scenarios directly in the browser."
+      ],
+      "year": "2025",
+      "preview": "https://predict-total-goal-pl.streamlit.app/",
+      "code": "https://github.com/wildanhanifabdillah/Predict-Total-Goal-PL.git",
+      "thumbnail": "",
+      "images": [],
+      "tech": [
+        "Flask",
+        "HTML",
+        "CSS",
+        "Streamlit",
+        "Python"
+      ],
+      "slug": "predict-goal"
+    },
+    {
+      "show": true,
+      "title": "Sarponesia",
+      "desc": [
+        "A company profile site for a coffee producer, showcasing the business story, product lineup, and pricing to support promotion and customer inquiries.",
+        "Built with Laravel and MySQL to keep content manageable and product data structured."
+      ],
+      "year": "2024",
+      "preview": "",
+      "code": "https://github.com/wildanhanifabdillah/sarponesiaBackend.git",
+      "thumbnail": "",
+      "images": [],
+      "tech": [
+        "Laravel",
+        "MySQL"
+      ],
+      "slug": "sarponesia-be"
+    },
+    {
+      "show": true,
+      "title": "SIMKLINIK UI/UX",
+      "desc": [
+        "Designed the UI/UX for a veterinary clinic management system, focusing on clear flows for appointments, patient records, and billing.",
+        "Prototyped in Figma to keep handoff smooth for frontend implementation."
+      ],
+      "year": "2025",
+      "preview": "https://simklinik.madanateknologi.web.id/login",
+      "code": "https://bit.ly/Design-PAD",
+      "thumbnail": "",
+      "images": [],
+      "tech": [
+        "Figma"
+      ],
+      "slug": "simklinik-uiux"
+    }
+  ]
+}
