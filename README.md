@@ -21,7 +21,7 @@ Personal portfolio built with Next.js, Tailwind CSS, Framer Motion, and Fullpage
 
    ```bash
    git clone <your-repo-url>
-   cd Alvalens-porto-2-nextJs
+   cd porto
    ```
 3. Install dependencies:
 
