@@ -38,7 +38,6 @@ const skillCategories = {
 		icon: WebhookIcon,
 		description: "Creating robust and scalable backend services",
 		languages: [
-			"NodeJS",
 			"Golang",
 			"PHP",
 			"Laravel",

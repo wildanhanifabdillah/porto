@@ -14,7 +14,7 @@ export const metadata = {
 		"My name is Wildan Hanif Abdillah, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Gadjah Mada.",
 
     author: "Wildan Hanif Abdillah",
-    siteUrl: "https://portofoliowildan.cloud",
+    siteUrl: "https://wildanhanifabdillah.cloud",
     applicationName: "WildanHA",
 
     keywords: [
@@ -24,7 +24,7 @@ export const metadata = {
 
     openGraph: {
 		type: "website",
-		url: "https://portofoliowildan.cloud",
+		url: "https://wildanhanifabdillah.cloud",
 		title: "WildanHA | Portofolio",
 		site_name: "WildanHA | Portofolio",
 		description: "My name is Wildan, This is my portofolio website.",
