@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+const galleryImages = ["/image/me1.jpg", "/image/me2.jpg", "/image/me3.jpg"];
+
 function Wrapper({ children }) {
 	return (
 		<div className="mx-auto container gap-10 p-10 grid grid-cols-1 my-10">
