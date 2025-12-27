@@ -1,7 +1,3 @@
-// Copyright (C) 2025 Alvalen Bilyunazra
-// This file is part of Alvalens-porto-2-nextJs.
-// Licensed under the GNU GPL v3.0. See LICENSE for details.
-
 "use client";
 import ReactFullpage from "@fullpage/react-fullpage";
 import Image from "next/legacy/image";
@@ -53,7 +49,7 @@ const MyPage = () => {
 												width={500}
 												height={500}
 												className="rounded-full w-full h-full object-cover "
-												alt="Wildan Hanif Abdillah"
+												alt="WildanHA"
 												placeholder="blur"
 											/>
 										</div>
@@ -76,7 +72,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
+										Software Engineer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -86,10 +82,9 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;m Wildan, a fullstack web developer who enjoys
-										building responsive interfaces and reliable RESTful backends.
-										I focus on scalable, user-friendly apps and clean delivery
-										pipelines so products stay maintainable.
+										Hi! I&rsquo;am Wildan, a software engineering student with experience building web applications from backend to frontend. 
+										I work with Laravel, Go, and modern JavaScript frameworks to develop REST APIs, manage databases, and build responsive user interfaces. 
+										I enjoy learning new technologies and building clean, maintainable web applications.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -109,9 +104,7 @@ const MyPage = () => {
 											</Link>
 										</Button>
 										<Button variation="secondary">
-											<a href="mailto:wildanhanifabdillah27@gmail.com?subject=Hello%20Wildan&body=Hi%20Wildan%2C%20">
-												Contact Me
-											</a>
+											<a href="#contact">Contact Me</a>
 										</Button>
 									</motion.div>
 								</motion.div>
@@ -129,7 +122,7 @@ const MyPage = () => {
 											width={400}
 											height={550}
 											placeholder="blur"
-											alt="Wildan Hanif Abdillah"
+											alt="wildan"
 											className="rounded-full w-full h-full object-cover"
 										/>
 									</div>
@@ -161,7 +154,7 @@ const MyPage = () => {
 											src={MeAbout}
 											layout="fill"
 											className="object-cover"
-											alt="Wildan Hanif Abdillah"
+											alt="Alvalens"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -227,7 +220,7 @@ const MyPage = () => {
 											src={ProjectAll}
 											layout="fill"
 											className="object-cover"
-											alt="Wildan project collage"
+											alt="Alvalens Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -297,7 +290,7 @@ const MyPage = () => {
 											src={Setup}
 											layout="fill"
 											className="object-cover"
-											alt="Wildan workspace setup"
+											alt="Alvalens Setup"
 											placeholder="blur"
 										/>
 									</motion.div>
@@ -322,7 +315,10 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Feel free to reach out for work, collaboration, or a quick hello.
+										Feel free to contact me if you have any{" "}
+										<span className="bg-transparent md:bg-gray-100 bg-opacity-50 xl:bg-transparent">
+											questions or just want to say hi.
+										</span>
 									</motion.p>
 									<motion.p
 										className="title text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem] mb-5"
@@ -332,14 +328,14 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										<a href="mailto:wildanhanifabdillah27@gmail.com?subject=Hello%20Wildan&body=Hi%20Wildan%2C%20">
+										<a href="mailto:wildanhanifabdillah27@gmail.com?subject=Hello&body=Hello Wildan,">
 											wildanhanifabdillah27@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
 									<div className="flex justify-center items-center space-x-4">
 										<motion.a
-											href="mailto:wildanhanifabdillah27@gmail.com?subject=Hello%20Wildan&body=Hi%20Wildan%2C%20"
+											href="mailto:wildanhanifabdillah27@gmail.com?subject=Hello&body=Hello Wildan,"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
 											initial={{ y: 40, opacity: 0 }}
 											whileInView={{ y: 0, opacity: 1 }}
