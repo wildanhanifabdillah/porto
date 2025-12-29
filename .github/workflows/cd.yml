@@ -31,7 +31,7 @@ jobs:
             git pull origin main
 
             echo "📦 Install dependencies"
-            pnpm install --frozen-lockfile
+            CI=true pnpm install --frozen-lockfile
 
             echo "🏗️ Build application"
             PORT=${{ secrets.APP_PORT }} pnpm build
