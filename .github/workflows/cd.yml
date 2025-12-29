@@ -1,0 +1,45 @@
+name: Deploy Portfolio to VPS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+
+      - name: Deploy to VPS via SSH
+        uses: appleboy/ssh-action@v1.1.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}   
+          port: ${{ secrets.SSH_PORT }}       
+          key: ${{ secrets.SSH_KEY }}
+
+          script: |
+            set -e
+
+            echo "➡️ Move to app directory"
+            cd ${{ secrets.APP_DIR }}
+
+            echo "⬇️ Pull latest code"
+            git pull origin main
+
+            echo "📦 Install dependencies"
+            pnpm install --frozen-lockfile
+
+            echo "🏗️ Build application"
+            PORT=${{ secrets.APP_PORT }} pnpm build
+
+            echo "🚀 Restart PM2 process"
+            pm2 restart portfolio || PORT=${{ secrets.APP_PORT }} pm2 start "pnpm start" --name portfolio
+
+            echo "💾 Save PM2 state"
+            pm2 save
+
+            echo "✅ Deploy finished successfully"
