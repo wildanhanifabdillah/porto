@@ -1,5 +1,35 @@
-{
+﻿{
   "Projects": [
+    {
+      "show": true,
+      "title": "Profil Web Desa Keseneng",
+      "desc": [
+        "A village profile website for Desa Keseneng at desakeseneng.id, designed to present village identity, public information, local potential, and community activities in one accessible digital channel.",
+        "The site is structured as a public-facing profile so visitors can quickly understand the village location, administrative context, tourism appeal, local economy, and social life without searching through scattered posts or informal channels.",
+        "Content planning focuses on the real character of Desa Keseneng in Kecamatan Sumowono, Kabupaten Semarang, including its rural landscape, agricultural and livestock activity, community organizations, and tourism potential such as Curug 7 Bidadari and Curug Palebur Gongso.",
+        "The information architecture separates important village content into clear sections: village overview, government profile, regional potential, public services, news or activity updates, gallery, and contact access. This makes the website useful for residents, visitors, village officials, and external partners.",
+        "For the portfolio implementation, the project highlights practical web development work beyond a simple landing page: arranging dense profile content, building readable responsive layouts, preparing navigation for long-form information, and keeping the site easy to maintain as village data grows.",
+        "The project also supports digital transparency by giving the village a professional online presence where announcements, program documentation, tourism promotion, and local product information can be published more consistently.",
+        "On the user experience side, the layout prioritizes scanning and clarity. Visitors should be able to move from an introduction to detailed information, discover village potential, and reach contact or location information without friction on mobile or desktop.",
+        "This project is a good example of a community-oriented web profile: the value is not only visual presentation, but also organizing local knowledge into a web experience that can support administration, promotion, and public communication."
+      ],
+      "year": "2026",
+      "preview": "https://desakeseneng.id/",
+      "code": "https://github.com/wildanhanifabdillah/Web-Desa.git",
+      "thumbnail": "/image/projects/web/desakeseneng/lp.png",
+      "images": [
+        "/image/projects/web/desakeseneng/sensor.png",
+        "/image/projects/web/desakeseneng/mqtt.png"
+      ],
+      "tech": [
+        "Next.js",
+        "Tailwind CSS",
+        "Responsive Design",
+        "Content Strategy",
+        "SEO"
+      ],
+      "slug": "profil-web-desa-keseneng"
+    },
     {
       "show": true,
       "title": "TokoManagement",
@@ -25,7 +55,7 @@
       "slug": "tokomanagement"
     },
     {
-      "show": true,
+      "show": false,
       "title": "WHAStore",
       "desc": [
         "WHAStore is a web e-commerce platform with a Go backend and Next.js frontend, using Zod to keep catalog, cart, and checkout flows consistently validated.",
