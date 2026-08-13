@@ -4,14 +4,14 @@
       "show": true,
       "title": "Profil Web Desa Keseneng",
       "desc": [
-        "A village profile website for Desa Keseneng at desakeseneng.id, designed to present village identity, public information, local potential, and community activities in one accessible digital channel.",
-        "The site is structured as a public-facing profile so visitors can quickly understand the village location, administrative context, tourism appeal, local economy, and social life without searching through scattered posts or informal channels.",
-        "Content planning focuses on the real character of Desa Keseneng in Kecamatan Sumowono, Kabupaten Semarang, including its rural landscape, agricultural and livestock activity, community organizations, and tourism potential such as Curug 7 Bidadari and Curug Palebur Gongso.",
-        "The information architecture separates important village content into clear sections: village overview, government profile, regional potential, public services, news or activity updates, gallery, and contact access. This makes the website useful for residents, visitors, village officials, and external partners.",
-        "For the portfolio implementation, the project highlights practical web development work beyond a simple landing page: arranging dense profile content, building readable responsive layouts, preparing navigation for long-form information, and keeping the site easy to maintain as village data grows.",
-        "The project also supports digital transparency by giving the village a professional online presence where announcements, program documentation, tourism promotion, and local product information can be published more consistently.",
-        "On the user experience side, the layout prioritizes scanning and clarity. Visitors should be able to move from an introduction to detailed information, discover village potential, and reach contact or location information without friction on mobile or desktop.",
-        "This project is a good example of a community-oriented web profile: the value is not only visual presentation, but also organizing local knowledge into a web experience that can support administration, promotion, and public communication."
+        "A full-stack village profile and public information website for Desa Keseneng at desakeseneng.id, built as part of the KKN-PPM UGM community service program to give the village a professional digital presence.",
+        "The site is structured as a public-facing profile so visitors can quickly understand the village location, administrative data, local potential, and community activities without searching through scattered posts or informal channels.",
+        "Desa Keseneng is located in Kecamatan Mojotengah, Kabupaten Wonosobo, Jawa Tengah, with agriculture and local arts as its main strengths. Content planning reflects this real character, covering natural landscape, agro tourism, local MSMEs, and traditional arts and culture.",
+        "The information architecture separates village content into clear sections: village profile, population statistics, local potential (nature, agro tourism, MSMEs, arts and culture), news and activity updates, gallery, transparency, and public documents.",
+        "A key feature is a real-time environmental monitoring dashboard that ingests wind speed, humidity, and temperature data via MQTT, displayed as part of a disaster-preparedness (siaga bencana) page so residents can track local conditions directly from the website.",
+        "The project also includes a custom admin panel built for non-technical village staff, allowing them to independently manage news, announcements, agenda, gallery, and public transparency documents without developer involvement.",
+        "For the portfolio implementation, this project highlights full end-to-end web development: designing the database and content structure, building a responsive public-facing frontend, developing an internal admin panel, and integrating live sensor data through MQTT for a disaster-monitoring use case.",
+        "This project is a strong example of community-oriented, full-stack web development: the value lies not only in visual presentation, but in combining public information architecture, content management tooling, and real-time IoT data to support village administration, transparency, and public safety."
       ],
       "year": "2026",
       "preview": "https://desakeseneng.id/",
@@ -24,9 +24,9 @@
       "tech": [
         "Next.js",
         "Tailwind CSS",
-        "Responsive Design",
-        "Content Strategy",
-        "SEO"
+        "MQTT",
+        "Admin Panel / CMS",
+        "Responsive Design"
       ],
       "slug": "profil-web-desa-keseneng"
     },
