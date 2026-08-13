@@ -114,13 +114,9 @@ export default function About() {
 					<p className="text-gray-600 text-justify title text-lg">
 						Hi, I&rsquo;m Wildan Hanif Abdillah, a{" "}
 						<span className="text-black font-medium">
-							web developer and REST API enthusiast
+							web developer
 						</span>{" "}
-						who loves shipping clean interfaces and reliable backends. I focus on
-						building responsive web apps, crafting REST services, and keeping the
-						user experience straightforward. Outside of coding, I stay curious
-						about design systems, deployment pipelines, and ways to make products
-						more maintainable. Always learning, always iterating.
+						a software engineering student who enjoys building web applications end-to-end — from designing databases and REST APIs to shipping responsive, user-friendly interfaces. I've worked across different roles in my projects, from fullstack and backend development with Laravel, to frontend work with React, Next and Vue, and even UI/UX design. Outside of coding, I stay curious about design systems, clean architecture, and ways to make products more maintainable. Always learning, always iterating.
 					</p>
 				</motion.div>
 			</div>

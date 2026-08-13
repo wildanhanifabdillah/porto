@@ -30,7 +30,6 @@ const skillCategories = {
 			"Figma",
 			"Vite",
 			"Docker",
-			"Cloudinary",
 		],
 	},
 	api: {
@@ -38,7 +37,6 @@ const skillCategories = {
 		icon: WebhookIcon,
 		description: "Creating robust and scalable backend services",
 		languages: [
-			"Golang",
 			"PHP",
 			"Laravel",
 			"Python",
@@ -53,7 +51,6 @@ const skillCategories = {
 			"Git",
 			"Github",
 			"GitLab",
-			"Cloudinary",
 		],
 	},
 };

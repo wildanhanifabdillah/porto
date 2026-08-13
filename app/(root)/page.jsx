@@ -82,9 +82,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;am Wildan, a software engineering student with experience building web applications from backend to frontend. 
-										I work with Laravel, Go, and modern JavaScript frameworks to develop REST APIs, manage databases, and build responsive user interfaces. 
-										I enjoy learning new technologies and building clean, maintainable web applications.
+										Hi! I&rsquo;am Wildan, , a software engineering student with experience building web applications end-to-end — from database design to backend services and responsive frontends. I work with Laravel and Flask for backend development, and React, Vue, and Next.js for frontend, alongside REST API integration and tools like MQTT for real-time data. I enjoy learning new technologies and building clean, maintainable web applications."
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -96,7 +94,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<Link
-												href={"/docs/cv.pdf"}
+												href={"/docs/cv2.pdf"}
 												target="_blank"
 												rel="noopener noreferrer"
 												download>

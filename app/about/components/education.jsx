@@ -77,7 +77,7 @@ export default function Education() {
 							<div className="flex items-center gap-2">
 								<p className="text-gray-600 text-justify title text-lg">
 									I&rsquo;m pursuing Software Engineer while focusing on web
-									development and RESTful backends. My coursework and projects
+									development. My coursework and projects
 									revolve around building scalable services, polishing user
 									interfaces, and keeping codebases maintainable.
 								</p>
