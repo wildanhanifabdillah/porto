@@ -116,7 +116,7 @@ export default function About() {
 						<span className="text-black font-medium">
 							web developer
 						</span>{" "}
-						a software engineering student who enjoys building web applications end-to-end — from designing databases and REST APIs to shipping responsive, user-friendly interfaces. I've worked across different roles in my projects, from fullstack and backend development with Laravel, to frontend work with React, Next and Vue, and even UI/UX design. Outside of coding, I stay curious about design systems, clean architecture, and ways to make products more maintainable. Always learning, always iterating.
+						a software engineering student who enjoys building web applications end-to-end — from designing databases and REST APIs to shipping responsive, user-friendly interfaces. I&rsquo;ve worked across different roles in my projects, from fullstack and backend development with Laravel, to frontend work with React, Next and Vue, and even UI/UX design. Outside of coding, I stay curious about design systems, clean architecture, and ways to make products more maintainable. Always learning, always iterating.
 					</p>
 				</motion.div>
 			</div>

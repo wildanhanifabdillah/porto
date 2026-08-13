@@ -82,7 +82,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;am Wildan, , a software engineering student with experience building web applications end-to-end — from database design to backend services and responsive frontends. I work with Laravel and Flask for backend development, and React, Vue, and Next.js for frontend, alongside REST API integration and tools like MQTT for real-time data. I enjoy learning new technologies and building clean, maintainable web applications."
+										Hi! I&rsquo;am Wildan, , a software engineering student with experience building web applications end-to-end — from database design to backend services and responsive frontends. I work with Laravel and Flask for backend development, and React, Vue, and Next.js for frontend, alongside REST API integration and tools like MQTT for real-time data. I enjoy learning new technologies and building clean, maintainable web applications.
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
