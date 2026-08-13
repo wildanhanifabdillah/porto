@@ -1,11 +1,3 @@
-packages:
-  - .
-
-onlyBuiltDependencies:
-  - core-js
-  - sharp
-
-pnpm:
-  allowedBuildScripts:
-    - core-js
-    - sharp
+allowBuilds:
+  sharp: true
+  core-js: true
