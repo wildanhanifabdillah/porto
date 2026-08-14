@@ -7,6 +7,7 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
+import Sidebar from "@/components/Sidebar";
 import Me from "@/public/image/me.jpg";
 import MeAbout from "@/public/image/me2.jpg";
 import Setup from "@/public/image/setup.jpg";
@@ -29,7 +30,9 @@ const MyPage = () => {
 	};
 
 	return (
-		<div>
+		<>
+			<Sidebar />
+			<div>
 			<ReactFullpage
 				render={({ state, fullpageApi }) => (
 					<ReactFullpage.Wrapper>
@@ -394,7 +397,8 @@ const MyPage = () => {
 				)}
 				{...fullpageOptions}
 			/>
-		</div>
+			</div>
+		</>
 	);
 };
 
