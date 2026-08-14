@@ -55,7 +55,7 @@
       "slug": "tokomanagement"
     },
     {
-      "show": false,
+      "show": true,
       "title": "WHAStore",
       "desc": [
         "WHAStore is a web e-commerce platform with a Go backend and Next.js frontend, using Zod to keep catalog, cart, and checkout flows consistently validated.",
