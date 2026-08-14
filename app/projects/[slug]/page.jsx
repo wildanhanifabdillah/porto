@@ -9,6 +9,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import NotFound from "@/app/not-found";
 import Image from "next/image";
 import BlurImage from "@/public/image/placeholder/blur.jpg";
+import { getImageAsset } from "@/components/imageAssets";
 import FixedButon from "@/components/FixedButton";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
