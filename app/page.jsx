@@ -95,15 +95,12 @@ const MyPage = () => {
 											delay: 0.5,
 											type: "spring",
 										}}>
-										<Button variation="primary">
-											<a
-										href="/docs/Resume.pdf"
-										target="_blank"
-										rel="noopener noreferrer"
-										download="Wildan-Hanif-Abdillah-CV.pdf">
-										Download CV
-									</a>
-										</Button>
+										<a
+											href="/cv"
+											download="Wildan-Hanif-Abdillah-CV.pdf"
+											className="title mr-3 rounded-2xl bg-gray-700 px-8 py-2 text-gray-100 shadow-md border-2 border-transparent transition duration-300 ease-in-out hover:bg-transparent hover:border-gray-700 hover:text-gray-700 box-border">
+											Download CV
+										</a>
 										<Button variation="secondary">
 											<a href="#contact">Contact Me</a>
 										</Button>
