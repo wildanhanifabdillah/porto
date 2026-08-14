@@ -51,7 +51,6 @@ const MyPage = () => {
 												className="rounded-full w-full h-full object-cover "
 												alt="WildanHA"
 												placeholder="blur"
-								unoptimized
 							/>
 										</div>
 									</div>
@@ -123,7 +122,6 @@ const MyPage = () => {
 											placeholder="blur"
 											alt="wildan"
 											className="rounded-full w-full h-full object-cover"
-								unoptimized
 							/>
 									</div>
 								</motion.div>
@@ -156,7 +154,6 @@ const MyPage = () => {
 											className="object-cover"
 											alt="Alvalens"
 											placeholder="blur"
-								unoptimized
 							/>
 									</motion.div>
 								</div>
@@ -223,7 +220,6 @@ const MyPage = () => {
 											className="object-cover"
 											alt="Alvalens Setup"
 											placeholder="blur"
-								unoptimized
 							/>
 									</motion.div>
 								</div>
@@ -294,7 +290,6 @@ const MyPage = () => {
 											className="object-cover"
 											alt="Alvalens Setup"
 											placeholder="blur"
-								unoptimized
 							/>
 									</motion.div>
 								</div>

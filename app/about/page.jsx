@@ -45,7 +45,6 @@ export default function Page() {
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
-								unoptimized
 							/>
 						</motion.div>
 					</div>
