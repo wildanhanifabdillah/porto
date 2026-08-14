@@ -51,7 +51,8 @@ const MyPage = () => {
 												className="rounded-full w-full h-full object-cover "
 												alt="WildanHA"
 												placeholder="blur"
-											/>
+								unoptimized
+							/>
 										</div>
 									</div>
 									<motion.h3
@@ -93,13 +94,13 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										<Button variation="primary">
-											<Link
-												href={"/docs/cv2.pdf"}
-												target="_blank"
-												rel="noopener noreferrer"
-												download>
-												Download CV
-											</Link>
+											<a
+										href="/docs/cv2.pdf"
+										target="_blank"
+										rel="noopener noreferrer"
+										download="Wildan-Hanif-Abdillah-CV.pdf">
+										Download CV
+									</a>
 										</Button>
 										<Button variation="secondary">
 											<a href="#contact">Contact Me</a>
@@ -122,7 +123,8 @@ const MyPage = () => {
 											placeholder="blur"
 											alt="wildan"
 											className="rounded-full w-full h-full object-cover"
-										/>
+								unoptimized
+							/>
 									</div>
 								</motion.div>
 							</div>
@@ -154,7 +156,8 @@ const MyPage = () => {
 											className="object-cover"
 											alt="Alvalens"
 											placeholder="blur"
-										/>
+								unoptimized
+							/>
 									</motion.div>
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
@@ -220,7 +223,8 @@ const MyPage = () => {
 											className="object-cover"
 											alt="Alvalens Setup"
 											placeholder="blur"
-										/>
+								unoptimized
+							/>
 									</motion.div>
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5">
@@ -290,7 +294,8 @@ const MyPage = () => {
 											className="object-cover"
 											alt="Alvalens Setup"
 											placeholder="blur"
-										/>
+								unoptimized
+							/>
 									</motion.div>
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden">

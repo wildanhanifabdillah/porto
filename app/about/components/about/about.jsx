@@ -40,7 +40,8 @@ export default function About() {
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
-								/>
+								unoptimized
+							/>
 							</motion.div>
 						</div>
 						<div className="absolute top-16 right-28 w-[30%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
@@ -63,7 +64,8 @@ export default function About() {
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
-								/>
+								unoptimized
+							/>
 							</motion.div>
 						</div>
 						<div className="absolute bottom-16 right-20 w-[40%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
@@ -88,7 +90,8 @@ export default function About() {
 									layout="fill"
 									objectFit="cover"
 									placeholder="blur"
-								/>
+								unoptimized
+							/>
 							</motion.div>
 						</div>
 					</div>

@@ -1,7 +1,10 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Me1 from "@/public/image/me1.jpg";
+import Me2 from "@/public/image/me2.jpg";
+import Me3 from "@/public/image/me3.jpg";
 
-const galleryImages = ["/image/me1.jpg", "/image/me2.jpg", "/image/me3.jpg"];
+const galleryImages = [Me1, Me2, Me3];
 
 function Wrapper({ children }) {
 	return (
@@ -69,6 +72,7 @@ export default function Education() {
 											width={400}
 											height={225}
 											alt="University"
+											unoptimized
 											className="rounded-lg w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-300 ease-in-out"
 										/>
 									</div>

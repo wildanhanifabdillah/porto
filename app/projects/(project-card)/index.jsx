@@ -3,12 +3,10 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
 import BlurImage from "@/public/image/placeholder/blur.jpg";
+import { getImageAsset } from "@/components/imageAssets";
 
 export default function ProjectCard({ project, index }) {
-	const thumbnailSrc =
-		project.thumbnail && project.thumbnail.trim() !== ""
-			? project.thumbnail
-			: BlurImage;
+	const thumbnailSrc = getImageAsset(project.thumbnail) || BlurImage;
 
 	return (
 		<Link href={"projects/" + project.slug} key={index}>
@@ -32,6 +30,7 @@ export default function ProjectCard({ project, index }) {
 					objectFit="cover"
 					placeholder="blur"
 					className="bg-slate-950 opacity-10  group-hover/tes:opacity-100 transition-all ease duration-500"
+					unoptimized
 					blurDataURL={BlurImage.src}
 				/>
 				<div className="absolute top-0 left-0 bg-gray-600 px-4 py-2">

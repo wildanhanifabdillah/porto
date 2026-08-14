@@ -62,6 +62,9 @@ function Page(props) {
 		: data?.code
 		? [data.code]
 		: [];
+	const projectImages = data?.images
+		? data.images.map((image) => getImageAsset(image)).filter(Boolean)
+		: [];
     useEffect(() => {
 		const selectedData = jsonData.Projects.find(
 			(item) => item.slug === params.slug
@@ -201,7 +204,7 @@ function Page(props) {
 			{/* images */}
 			<div className="mx-auto grid grid-cols-1 p-5 md:p-20 w-full">
 				<div className="w-full h-auto text-center flex flex-col justify-center ">
-					{data.images.map((image, index) => (
+					{projectImages.map((image, index) => (
 						<Image
 							key={index}
 							src={image}
@@ -209,6 +212,7 @@ function Page(props) {
 							className="mb-5 h-auto max-h-screen max-w-7xl mx-auto"
 							width={1920}
 							height={1080}
+							unoptimized
 							blurDataURL={BlurImage.src}
 							layout="responsive"
 							objectFit="contain"
