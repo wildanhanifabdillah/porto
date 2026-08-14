@@ -16,12 +16,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 export default function Page() {
-	const projects = Projects.Projects.filter((item) => item.show === true);
+	const highlightProject = Projects.Projects.find(
+		(item) => item.slug === "profil-web-desa-keseneng"
+	);
+	const projects = Projects.Projects.filter(
+		(item) => item.show === true && item.slug !== highlightProject?.slug
+	);
 	const highlightImages = [
-		"/image/projects/web/whastore/whastore-1.png",
-		"/image/projects/web/whastore/whastore-2.png",
-		"/image/projects/web/whastore/whastore-3.png",
-	];
+		highlightProject?.thumbnail,
+		...(highlightProject?.images || []),
+	].filter(Boolean);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -95,7 +99,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={highlightImages[0]}
-										alt="WHAStore screenshot 1"
+										alt="Profil Web Desa Keseneng screenshot 1"
 										layout="fill"
 										objectFit="cover"
 										className="rat"
@@ -118,7 +122,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg ">
 									<Image
 										src={highlightImages[1]}
-										alt="WHAStore screenshot 2"
+										alt="Profil Web Desa Keseneng screenshot 2"
 										layout="fill"
 										objectFit="cover"
 										objectPosition="0% 0%"
@@ -143,7 +147,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={highlightImages[2]}
-										alt="WHAStore screenshot 3"
+										alt="Profil Web Desa Keseneng screenshot 3"
 										layout="fill"
 										objectFit="cover"
 									/>
@@ -166,22 +170,18 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							WHAStore
+							{highlightProject.title}
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							WHAStore is a web e-commerce platform with a Go backend and
-							Next.js frontend. Catalog, cart, and checkout flows are validated
-							with Zod; Midtrans powers payments; PostgreSQL + Redis keep data
-							and cache quick; and Docker + GitLab CI/CD make releases
-							repeatable.
+							{highlightProject.desc.slice(0, 2).join(" ")}
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/whastore">More</Link>
+								<Link href={`/projects/${highlightProject.slug}`}>More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://whastore.my.id/"
+									href={highlightProject.preview}
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
