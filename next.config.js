@@ -4,6 +4,7 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 module.exports = withBundleAnalyzer({
 	// your Next.js configuration
 	images: {
+		unoptimized: true,
 		remotePatterns: [
 			{
 				protocol: "https",

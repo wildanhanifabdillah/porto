@@ -25,7 +25,9 @@ export default function Page() {
 	const highlightImages = [
 		highlightProject?.thumbnail,
 		...(highlightProject?.images || []),
-	].filter(Boolean);
+	]
+		.filter(Boolean)
+		.slice(0, 3);
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
@@ -97,13 +99,16 @@ export default function Page() {
 										x: 0,
 									}}
 									className="w-full h-full shadow-lg">
-									<Image
-										src={highlightImages[0]}
-										alt="Profil Web Desa Keseneng screenshot 1"
-										layout="fill"
-										objectFit="cover"
-										className="rat"
-									/>
+									{highlightImages[0] && (
+										<Image
+											src={highlightImages[0]}
+											alt="Profil Web Desa Keseneng screenshot 1"
+											layout="fill"
+											objectFit="cover"
+											className="rat"
+											unoptimized
+										/>
+									)}
 								</motion.div>
 							</div>
 							<div className="absolute top-10 right-28 h-[30%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
@@ -120,13 +125,16 @@ export default function Page() {
 									}}
 									transition={{ delay: 0.3 }}
 									className="w-full h-full shadow-lg ">
-									<Image
-										src={highlightImages[1]}
-										alt="Profil Web Desa Keseneng screenshot 2"
-										layout="fill"
-										objectFit="cover"
-										objectPosition="0% 0%"
-									/>
+									{highlightImages[1] && (
+										<Image
+											src={highlightImages[1]}
+											alt="Profil Web Desa Keseneng screenshot 2"
+											layout="fill"
+											objectFit="cover"
+											objectPosition="0% 0%"
+											unoptimized
+										/>
+									)}
 								</motion.div>
 							</div>
 							<div className="absolute bottom-10 md:bottom-26 right-20 h-[35%]  aspect-video grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
@@ -145,12 +153,15 @@ export default function Page() {
 										delay: 0.5,
 									}}
 									className="w-full h-full shadow-lg">
-									<Image
-										src={highlightImages[2]}
-										alt="Profil Web Desa Keseneng screenshot 3"
-										layout="fill"
-										objectFit="cover"
-									/>
+									{highlightImages[2] && (
+										<Image
+											src={highlightImages[2]}
+											alt="Profil Web Desa Keseneng screenshot 3"
+											layout="fill"
+											objectFit="cover"
+											unoptimized
+										/>
+									)}
 								</motion.div>
 							</div>
 						</div>
