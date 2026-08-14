@@ -11,7 +11,7 @@ function Title() {
 			<div className="flex justify-center items-center flex-col my-5 self-start ">
 				<Hr variant="long"></Hr>
 				<h1 className="text-3xl font-bold mt-3">
-					Tentang Saya — Wildan Hanif Abdillah
+					About Me — Wildan Hanif Abdillah
 				</h1>
 			</div>
 		</div>
