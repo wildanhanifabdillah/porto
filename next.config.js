@@ -25,6 +25,24 @@ module.exports = withBundleAnalyzer({
 	async headers() {
 		return [
 			{
+				source: "/",
+				headers: [
+					{
+						key: "Cache-Control",
+						value: "no-store, max-age=0",
+					},
+				],
+			},
+			{
+				source: "/projects/:path*",
+				headers: [
+					{
+						key: "Cache-Control",
+						value: "no-store, max-age=0",
+					},
+				],
+			},
+			{
 				source: "/sitemap.xml.gz",
 				headers: [
 					{
