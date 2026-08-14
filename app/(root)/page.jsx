@@ -94,7 +94,7 @@ const MyPage = () => {
 										}}>
 										<Button variation="primary">
 											<a
-										href="/docs/cv2.pdf"
+										href="/docs/CV .pdf"
 										target="_blank"
 										rel="noopener noreferrer"
 										download="Wildan-Hanif-Abdillah-CV.pdf">
