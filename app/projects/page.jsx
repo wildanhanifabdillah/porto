@@ -7,6 +7,9 @@ import Image from "next/image";
 
 // images
 import ProjectAll from "@/public/image/projects.png";
+import DesaKesenengLanding from "@/public/image/projects/web/desakeseneng/lp.png";
+import DesaKesenengSensor from "@/public/image/projects/web/desakeseneng/sensor.png";
+import DesaKesenengMqtt from "@/public/image/projects/web/desakeseneng/mqtt.png";
 
 import Hr from "@/components/Hr";
 import ProjectCard from "./components/ProjectCard";
@@ -23,11 +26,10 @@ export default function Page() {
 		(item) => item.show === true && item.slug !== highlightProject?.slug
 	);
 	const highlightImages = [
-		highlightProject?.thumbnail,
-		...(highlightProject?.images || []),
-	]
-		.filter(Boolean)
-		.slice(0, 3);
+		DesaKesenengLanding,
+		DesaKesenengSensor,
+		DesaKesenengMqtt,
+	];
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
